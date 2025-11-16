@@ -1,14 +1,17 @@
-[package]
-name = "sds"
+[workspace]
+members = [
+    "crates/sds-core",
+]
+resolver = "2"
+
+[workspace.package]
 version = "25.12.24"
 edition = "2021"
 authors = ["Tuan Nguyen <tuan.nguyen@kanthorlabs.com>"]
-description = "A Rust application"
+description = "A Rust embedded database with multi-language bindings"
 repository = "https://github.com/kanthorlabs/sds"
 license = "MIT"
 keywords = ["rust", "rocksdb", "database", "embedded-database", "object-storage", "lsm-tree"]
 readme = "README.md"
 homepage = "https://sds.kanthorlabs.com"
 documentation = "https://sds.kanthorlabs.com"
-
-[dependencies]

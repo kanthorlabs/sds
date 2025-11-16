@@ -1,0 +1,3 @@
+# Ideas
+
+We have three consistency levels for writes: in-memory only, local disk only, and remote object storage. But the abstraction could allow for more levels in the future. The principles are: the slower layer you write to, the more durable the write is. We could have levels like "replicated local disk" (write to multiple local disks for higher durability), or "erasure coded remote storage" (write to multiple object storage backends with erasure coding for higher durability).

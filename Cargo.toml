@@ -1,0 +1,14 @@
+[package]
+name = "sds"
+version = "25.12.24"
+edition = "2021"
+authors = ["Tuan Nguyen <tuan.nguyen@kanthorlabs.com>"]
+description = "A Rust application"
+repository = "https://github.com/kanthorlabs/sds"
+license = "MIT"
+keywords = ["rust", "rocksdb", "database", "embedded-database", "object-storage", "lsm-tree"]
+readme = "README.md"
+homepage = "https://sds.kanthorlabs.com"
+documentation = "https://sds.kanthorlabs.com"
+
+[dependencies]
